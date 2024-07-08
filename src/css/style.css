@@ -32,7 +32,7 @@ a {
 }
 
 .banner_background {
-    background-image: url(images/Oval.svg), url(images/bg1.png);
+    background-image: url(/images/Oval.svg), url(/images/bg1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
