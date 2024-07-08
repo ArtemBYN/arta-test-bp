@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="banner_background">
+    <div class="banner_wrapper">
+      <!-- <img src="images/background.png" alt=""> -->
+
+      <div class="status_bar">
+        <img src="images/status_bar.svg" alt="">
+      </div>
+
+      <div class="cross">
+        <a href="#"><img src="images/cross_1.svg" alt=""></a>
+      </div>
+
+      <div class="main_titile">
+        <h1 data-i18n="Get Unlimited <br>Access"></h1>
+      </div>
+
+      <div class="features_wrapper">
+        <div class="features">
+
+          <div id="unlimited_art_creation" class="features_item_picture">
+            <div data-i18n="Unlimited Art <br>Creation" class="features_item_text"></div>
+          </div>
+
+          <div id="exclusive_styles" class="features_item_picture">
+            <div data-i18n="Exclusive <br>Styles" class="features_item_text"></div>
+          </div>
+
+          <div id="magic_avatar" class="features_item_picture">
+            <div data-i18n="Magic Avatars <br>With 20% Off" class="features_item_text"></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="offer-block-wrapper">
+
+        <div class="offer-block" id="yearly">
+          <div class="offer-content">
+            <div class="selector_item_left">
+              <span data-i18n="YEARLY ACCESS" class="offer-title"></span>
+              <span data-i18n="Just {{price}} per year" data-price="$39.99" class="offer-price"></span>
+            </div>
+            <div class="selector_item_right">
+              <span data-i18n="{{price}} <br>per week" data-price="$0.48" class="offer-weekly-price"></span>
+            </div>
+          </div>
+          <div data-i18n="BEST OFFER" class="best-offer"></div>
+        </div>
+
+        <div class="offer-block" id="weekly">
+          <div class="offer-content">
+            <div class="selector_item_left">
+              <span data-i18n="WEEKLY ACCESS" class="offer-title"></span>
+            </div>
+            <div class="selector_item_right">
+              <span data-i18n="{{price}} <br>per week" data-price="$6.99" class="offer-weekly-price"></span>
+            </div>
+          </div>
+        </div>
+
+        <div data-i18n="Continue" class="button_wrapper offer-block"></div>
+
+      </div>
+      <div class="footer">
+        <a data-i18n="Terms of Use" href="#">Terms of Use </a>
+        <a data-i18n="Privacy Policy" href="#">Privacy Policy</a>
+        <a data-i18n="Restore" href="#">Restore</a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script type="module" src="src/js/main.js"></script>
+</body>
+
+</html>
