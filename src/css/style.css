@@ -77,17 +77,17 @@ a {
 }
 
 #unlimited_art_creation {
-    background: url(images/f1.png);
+    background: url(/images/f1.png);
     background-size: cover;
 }
 
 #exclusive_styles {
-    background: url(images/f2.png);
+    background: url(/images/f2.png);
     background-size: cover;
 }
 
 #magic_avatar {
-    background: url(images/f3.png);
+    background: url(/images/f3.png);
     background-size: cover;
 }
 
